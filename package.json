@@ -7,7 +7,7 @@
 		"start": "node dist/server.mjs",
 		"build": "npm run lint && tsup src --format esm",
 		"lint": "yarn biome check --apply ./src",
-		"start:dev": "tsx watch ./src/server.ts",
+		"dev": "tsx watch ./src/server.ts",
 		"setup": "tsx ./src/setup.ts"
 	},
 	"devDependencies": {
