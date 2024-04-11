@@ -1,5 +1,4 @@
 import type { FastifyInstance } from "fastify"
-import { PostgresError } from "postgres"
 import { ZodError, z } from "zod"
 import { sql } from "../lib/postgres"
 import { redis } from "../lib/redis"
